@@ -101,12 +101,9 @@
 		14B25CCF2DE93292004788ED /* SQUADRA */ = {
 			isa = PBXGroup;
 			children = (
-				14B25CD02DE93292004788ED /* AppDelegate.swift */,
-				14B25CD22DE93292004788ED /* SceneDelegate.swift */,
-				14B25CD42DE93292004788ED /* ViewController.swift */,
-				14B25CD62DE93292004788ED /* Main.storyboard */,
-				14B25CDC2DE93298004788ED /* Assets.xcassets */,
-				14B25CDE2DE93298004788ED /* LaunchScreen.storyboard */,
+				14B25D062DE9331A004788ED /* Resources */,
+				14B25D052DE9330D004788ED /* App */,
+				14B25D032DE932EC004788ED /* AllSports */,
 				14B25CE12DE93298004788ED /* Info.plist */,
 				14B25CD92DE93292004788ED /* SQUADRA.xcdatamodeld */,
 			);
@@ -128,6 +125,41 @@
 				14B25CF62DE93299004788ED /* SQUADRAUITestsLaunchTests.swift */,
 			);
 			path = SQUADRAUITests;
+			sourceTree = "<group>";
+		};
+		14B25D032DE932EC004788ED /* AllSports */ = {
+			isa = PBXGroup;
+			children = (
+				14B25D042DE932F8004788ED /* View */,
+			);
+			path = AllSports;
+			sourceTree = "<group>";
+		};
+		14B25D042DE932F8004788ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14B25CD42DE93292004788ED /* ViewController.swift */,
+				14B25CD62DE93292004788ED /* Main.storyboard */,
+				14B25CDE2DE93298004788ED /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14B25D052DE9330D004788ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				14B25CD02DE93292004788ED /* AppDelegate.swift */,
+				14B25CD22DE93292004788ED /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		14B25D062DE9331A004788ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14B25CDC2DE93298004788ED /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
