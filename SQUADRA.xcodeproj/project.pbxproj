@@ -18,6 +18,7 @@
 		14B25CF52DE93299004788ED /* SQUADRAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B25CF42DE93299004788ED /* SQUADRAUITests.swift */; };
 		14B25CF72DE93299004788ED /* SQUADRAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B25CF62DE93299004788ED /* SQUADRAUITestsLaunchTests.swift */; };
 		14B25D082DE93690004788ED /* Leagues in Resources */ = {isa = PBXBuildFile; fileRef = 14B25D072DE93690004788ED /* Leagues */; };
+		14B25D0C2DE93B5D004788ED /* AllLeagues.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B25D0B2DE93B5D004788ED /* AllLeagues.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		14B25CF42DE93299004788ED /* SQUADRAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQUADRAUITests.swift; sourceTree = "<group>"; };
 		14B25CF62DE93299004788ED /* SQUADRAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQUADRAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		14B25D072DE93690004788ED /* Leagues */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Leagues; sourceTree = "<group>"; };
+		14B25D0B2DE93B5D004788ED /* AllLeagues.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllLeagues.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		14B25CCF2DE93292004788ED /* SQUADRA */ = {
 			isa = PBXGroup;
 			children = (
+				14B25D092DE93B2D004788ED /* AllLeagues */,
 				14B25D072DE93690004788ED /* Leagues */,
 				14B25D062DE9331A004788ED /* Resources */,
 				14B25D052DE9330D004788ED /* App */,
@@ -163,6 +166,22 @@
 				14B25CDC2DE93298004788ED /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		14B25D092DE93B2D004788ED /* AllLeagues */ = {
+			isa = PBXGroup;
+			children = (
+				14B25D0A2DE93B3F004788ED /* View */,
+			);
+			path = AllLeagues;
+			sourceTree = "<group>";
+		};
+		14B25D0A2DE93B3F004788ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14B25D0B2DE93B5D004788ED /* AllLeagues.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +290,7 @@
 			files = (
 				14B25CE02DE93298004788ED /* LaunchScreen.storyboard in Resources */,
 				14B25D082DE93690004788ED /* Leagues in Resources */,
+				14B25D0C2DE93B5D004788ED /* AllLeagues.storyboard in Resources */,
 				14B25CDD2DE93298004788ED /* Assets.xcassets in Resources */,
 				14B25CD82DE93292004788ED /* Main.storyboard in Resources */,
 			);
